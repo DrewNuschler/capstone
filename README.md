@@ -20,6 +20,7 @@
  *
  *
  *
+
  *
 
  ## Contact info      Author: Andrew Nuschler.  Email: lookup1929@gmail.com
@@ -33,6 +34,8 @@
  *
  *
  *
+ ## Wireframe
+ *![Capstone Wireframe](https://github.com/user-attachments/assets/789b1766-36ef-45bc-b890-e3287c6473f1)
  
 
 
