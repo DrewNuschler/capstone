@@ -7,7 +7,7 @@ function click1() {
     ask = {};
     ask.me = prompt("Have you considered coding?");
   
-    messageParagraph.innerHTML = `awdawdawdwwd${ask.me}`;
+    messageParagraph.innerHTML = `${ask.me}`;
   
   }
 
