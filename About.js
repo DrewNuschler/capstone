@@ -1,5 +1,6 @@
 
-
+let part1 = document.getElementById("part1");
+let messageParagraph = document.getElementById("messageParagraph");
 
 function click1Part1() {
     let hey;
@@ -8,9 +9,9 @@ function click1Part1() {
   
     messageParagraph.innerHTML = `${hey.you}, Thank you for visiting my new portfolio page.`;
   
-  }
+   }
 
-  openMe.onclick = click1Part1;
+  part1.onclick = click1Part1;
 
   function show() {
     /* Access image by id and change 
@@ -19,5 +20,5 @@ function click1Part1() {
         .style.display = "block";
     document.getElementById('btnID')
         .style.display = "none";
-}
+      } 
 
