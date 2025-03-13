@@ -8,6 +8,7 @@ background-image: url('https://th.bing.com/th/id/R.cdb8ec15f5697c36419089a6c8408
 background-repeat: no-repeat;
 background-attachment: fixed;  
 background-size: cover;
+
 }
 #container div{
     height: 375px;
@@ -15,6 +16,7 @@ background-size: cover;
     background-color: rgb(0, 4, 5);
     margin: 60px;
     text-align: center;
+    
 }
 
 
