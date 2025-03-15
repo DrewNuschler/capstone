@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+    <link rel="stylesheet" href="About.CSS" />
     <style>
-        body {
-  background-image: url('https://static.vecteezy.com/system/resources/previews/025/180/964/non_2x/matrix-binary-code-background-ai-generative-photo.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-}
+      body {
+        background-image: url("https://static.vecteezy.com/system/resources/previews/025/180/964/non_2x/matrix-binary-code-background-ai-generative-photo.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
 
-button{
+      button {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -17,75 +21,101 @@ button{
         height: 35px;
         width: 100px;
         background-color: black;
-        color: chartreuse
-        }
+        color: chartreuse;
+      }
 
       div {
-        background-image: url('https://static.vecteezy.com/system/resources/previews/025/180/964/non_2x/matrix-binary-code-background-ai-generative-photo.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
+        background-image: url("https://static.vecteezy.com/system/resources/previews/025/180/964/non_2x/matrix-binary-code-background-ai-generative-photo.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
       }
-      a{
+      a {
         color: aqua;
       }
-   </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
-    <link rel="stylesheet" href="About.CSS">
-</head>
+    </style>
+  </head>
 
-<body>
-
+  <body>
     <nav>
-        <a href="Gallery.HTML">Gallery</a>
-        <a href="Work-links.HTML">Work</a>
-        <a href="Index.HTML">index</a>
-      </nav>
-      <h5>A little of me.</h5>
-     
-   <div id="About-Text">
-     <div><p> Hello, my name is Andrew. I've created this webpage to give you alittle information about me. Recently I started learning Javascript, CSS, and a few other coding skills from CodeX.
-     The area I am from isn't big on tech. So for me choosing a tech related job field was a conflicting choice.
-     I found by talking to some folks near my area and doing a little research online. My town and all the nearby cities were going to experience alot of growth. 
-     Larger cities near me are having companie's from many different state's and fields of work relocate there. 
-     Which spurred  me on to find a way to learn about a long time curiousity of mine... Coding. I have always wondered about coding since watching early movies like Hackers, The Matrix, and Johny Mnemonic.
-     Since than I have joined CodeX Academy, which in just a few short weeks has tought and given me many practical experiences in the field. 
-     Not to mention the many resources shared to help with problem solving applications in future endeavors. To sum up my experience so far it has been a very interesting time.  
-     It's had its ups, downs, and sleepless nights. Now that I'm starting to get a better grasp of it though. I'm rather excited to see what we get to learn and try in the future, and refining what I have already learned.
-      </p></div>
-   </div>
+      <a href="Gallery.HTML">Gallery</a>
+      <a href="Work-links.HTML">Work</a>
+      <a href="Index.HTML">index</a>
+    </nav>
+    <h5>A little of me.</h5>
+
+    <div id="About-Text">
+      <div>
+        <p>
+          Hello, my name is Andrew. I've created this webpage to give you
+          alittle information about me. Recently I started learning Javascript,
+          CSS, and a few other coding skills from CodeX. The area I am from
+          isn't big on tech. So for me choosing a tech related job field was a
+          conflicting choice. I found by talking to some folks near my area and
+          doing a little research online. My town and all the nearby cities were
+          going to experience alot of growth. Larger cities near me are having
+          companie's from many different state's and fields of work relocate
+          there. Which spurred me on to find a way to learn about a long time
+          curiousity of mine... Coding. I have always wondered about coding
+          since watching early movies like Hackers, The Matrix, and Johny
+          Mnemonic. Since than I have joined CodeX Academy, which in just a few
+          short weeks has tought and given me many practical experiences in the
+          field. Not to mention the many resources shared to help with problem
+          solving applications in future endeavors. To sum up my experience so
+          far it has been a very interesting time. It's had its ups, downs, and
+          sleepless nights. Now that I'm starting to get a better grasp of it
+          though. I'm rather excited to see what we get to learn and try in the
+          future, and refining what I have already learned.
+        </p>
+      </div>
+    </div>
 
     <div class="local-button">
-    <button id="part1">Click Me</button>
-</div>
-  <p id="messageParagraph"> 
-  </p>
+      <button id="part1">Click Me</button>
+    </div>
+    <p id="messageParagraph"></p>
 
-   <div>
-    <img id="image" src=
-    "Photo of Me.jpeg"
-        alt="Image of me" />
-   </div>
-    <button type="button" onclick="show()" id="btnID">
-    Show Me
-    </button>
-    
+    <div>
+      <img id="image" src="Photo of Me.jpeg" alt="Image of me" />
+    </div>
+    <button type="button" onclick="show()" id="btnID">Show Me</button>
+
     <div id="MovieContainer">
-     <figure>
-       <div> <img src="Hackers movie image.jpg" height="370px" width="335px" alt="Hackers Movie Img">
-       <figcaption>The cast from Hackers</figcaption></div>
-     </figure>
-     <figure>
-      <div> <img src="John Mnemonic.jpg" height="370px" width="335px" alt="Johny Mnenomic">
-      <figcaption>Photo of the character Johny Mnemonic</figcaption></div>
-     </figure>]
-     <figure>
-      <div> <img src="Matrix Photo.webp"height="370px" width="335px" alt="Matrix Movie Img">
-      <figcaption>Copy of the movie The Matrix</figcaption></div>
-     </figure>
+      <figure>
+        <div>
+          <img
+            src="Hackers movie image.jpg"
+            height="370px"
+            width="335px"
+            alt="Hackers Movie Img"
+          />
+          <figcaption>The cast from Hackers</figcaption>
+        </div>
+      </figure>
+      <figure>
+        <div>
+          <img
+            src="John Mnemonic.jpg"
+            height="370px"
+            width="335px"
+            alt="Johny Mnenomic"
+          />
+          <figcaption>Photo of the character Johny Mnemonic</figcaption>
+        </div>
+      </figure>
+      ]
+      <figure>
+        <div>
+          <img
+            src="Matrix Photo.webp"
+            height="370px"
+            width="335px"
+            alt="Matrix Movie Img"
+          />
+          <figcaption>Copy of the movie The Matrix</figcaption>
+        </div>
+      </figure>
     </div>
     <script src="About.js"></script>
-    </body>
+  </body>
 </html>

@@ -1,42 +1,39 @@
-
-#container{
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 400px;
-background-image: url('https://th.bing.com/th/id/R.cdb8ec15f5697c36419089a6c8408d6a?rik=mWcJQRZX7FNgHw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f4%2fc%2f4%2f1479595-matrix-binary-code-falling-wallpaper-1920x1080-retina.jpg&ehk=X4L0I6wQ5%2b%2fwpkM4pf6rQzYqIURbhNx68AET0lgBnh4%3d&risl=&pid=ImgRaw&r=0');
-background-repeat: no-repeat;
-background-attachment: fixed;  
-background-size: cover;
-
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background-image: url("https://th.bing.com/th/id/R.cdb8ec15f5697c36419089a6c8408d6a?rik=mWcJQRZX7FNgHw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f4%2fc%2f4%2f1479595-matrix-binary-code-falling-wallpaper-1920x1080-retina.jpg&ehk=X4L0I6wQ5%2b%2fwpkM4pf6rQzYqIURbhNx68AET0lgBnh4%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
-#container div{
-    height: 375px;
-    width: 500px;
-    background-color: rgb(0, 4, 5);
-    margin: 60px;
-    text-align: center;
+#container div {
+  height: 375px;
+  width: 500px;
+  background-color: rgb(0, 4, 5);
+  margin: 60px;
+  text-align: center;
 }
 
 .center-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 250px;
-    flex-direction: column;
-    }
-    ul {
-    list-style: none;
-    padding: 0;
-    }
-    li {
-    margin: 5px 0;
-    color: chartreuse;
-    }
-
-p{
-    text-align: center;
-    color: chartreuse;
-    font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 5px 0;
+  color: chartreuse;
 }
 
+.green-text {
+  text-align: center;
+  color: chartreuse;
+  font-size: larger;
+}
